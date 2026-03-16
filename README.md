@@ -1,60 +1,128 @@
 # Python SMID Alpha Screener
 
-The **Python SMID Alpha Screener** is a rule-based fundamental model designed to identify potentially undervalued small and mid-cap companies within the U.S. equity market.
+A Python-based **fundamental stock screener** designed to identify potentially undervalued **U.S. small and mid-cap equities**.
 
-The objective of the model is to systematically reduce a large investment universe into a shortlist of companies that may deserve further fundamental analysis.
+The model applies a transparent **rule-based scoring framework** combining valuation, quality, and growth metrics.
 
 ---
 
 ## Investment Framework
 
-The model evaluates companies across three core pillars:
+The screener evaluates companies across three key pillars:
 
-• **Valuation**  
-• **Quality**  
-• **Growth**
-
----
-
-## Metrics Used
-
-### Valuation
+**Valuation**
 - Price-to-Earnings (P/E)
 - EV / EBITDA
 
-### Quality
+**Quality**
 - Return on Equity (ROE)
 - Debt-to-Equity
 
-### Growth
+**Growth**
 - Revenue Growth
 
 Each metric receives a score based on predefined thresholds.
 
-The final score combines:
-
-- Valuation Score
-- Quality Score
-- Growth Score
-
-Companies are then ranked based on their total score.
+Companies are then ranked based on their **Total Score**.
 
 ---
 
 ## Universe
 
-The screener focuses on companies with market capitalizations between approximately **$300M and $10B**, inspired by the **Russell 2000 universe**.
+The model focuses on companies within the **small and mid-cap segment**, inspired by the Russell 2000 universe.
+
+Large-cap companies are excluded to focus on potential **inefficiencies in less-covered segments of the market**.
 
 ---
 
-## Output
+## Workflow
+# Python SMID Alpha Screener
 
-The model generates an Excel report including:
+A Python-based **fundamental stock screener** designed to identify potentially undervalued **U.S. small and mid-cap equities**.
 
-• Watchlist of top opportunities  
-• Full scoring table  
-• Methodology explanation
+The model applies a transparent **rule-based scoring framework** combining valuation, quality, and growth metrics.
 
 ---
 
-## Example Workflow
+## Investment Framework
+
+The screener evaluates companies across three key pillars:
+
+**Valuation**
+- Price-to-Earnings (P/E)
+- EV / EBITDA
+
+**Quality**
+- Return on Equity (ROE)
+- Debt-to-Equity
+
+**Growth**
+- Revenue Growth
+
+Each metric receives a score based on predefined thresholds.
+
+Companies are then ranked based on their **Total Score**.
+
+---
+
+## Universe
+
+The model focuses on companies within the **small and mid-cap segment**, inspired by the Russell 2000 universe.
+
+Large-cap companies are excluded to focus on potential **inefficiencies in less-covered segments of the market**.
+
+---
+
+## Workflow
+Investment Universe
+↓
+Financial Data
+↓
+Fundamental Ratios
+↓
+Scoring Model
+↓
+Ranking
+↓
+Watchlist
+
+---
+
+## Example Output
+
+The screener generates an Excel report containing:
+
+- Watchlist of top ranked companies
+- Full scoring table
+- Methodology and scoring logic
+
+Example:
+
+![SMID Screener Output](docs/screener_output.png)
+
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- OpenPyXL
+
+---
+
+## Author
+
+**Bastien Degeest**
+
+Finance professional interested in **fundamental equity analysis and systematic investment tools**.
+
+LinkedIn  
+https://www.linkedin.com/in/bastiendegeest/
+
+---
+
+## Disclaimer
+
+This project is provided for educational purposes only and does not constitute investment advice.
+
+All investment decisions should be based on independent financial research.
