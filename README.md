@@ -74,17 +74,7 @@ Large-cap companies are excluded to focus on potential **inefficiencies in less-
 ---
 
 ## Workflow
-Investment Universe
-↓
-Financial Data
-↓
-Fundamental Ratios
-↓
-Scoring Model
-↓
-Ranking
-↓
-Watchlist
+Investment Universe -> Financial Data -> Fundamental Ratios -> Scoring Model -> Ranking -> Watchlist
 
 ---
 
