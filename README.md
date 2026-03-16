@@ -100,6 +100,20 @@ Example:
 
 ---
 
+## Running the Screener
+
+Clone the repository:
+
+git clone https://github.com/bastdg/python-smid-alpha-screener.git
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the screener:
+
+python src/main.py
+
 ## Author
 
 **Bastien Degeest**
