@@ -6,23 +6,6 @@ The model applies a transparent **rule-based scoring framework** combining valua
 
 ---
 
-## Universe
-
-The model focuses on companies within the **small and mid-cap segment**, inspired by the Russell 2000 universe.
-
-Large-cap companies are excluded to focus on potential **inefficiencies in less-covered segments of the market**.
-
----
-
-## Workflow
-# Python SMID Alpha Screener
-
-A Python-based **fundamental stock screener** designed to identify potentially undervalued **U.S. small and mid-cap equities**.
-
-The model applies a transparent **rule-based scoring framework** combining valuation, quality, and growth metrics.
-
----
-
 ## Investment Framework
 
 The screener evaluates companies across three key pillars:
