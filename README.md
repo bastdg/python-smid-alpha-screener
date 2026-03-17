@@ -6,27 +6,6 @@ The model applies a transparent **rule-based scoring framework** combining valua
 
 ---
 
-## Investment Framework
-
-The screener evaluates companies across three key pillars:
-
-**Valuation**
-- Price-to-Earnings (P/E)
-- EV / EBITDA
-
-**Quality**
-- Return on Equity (ROE)
-- Debt-to-Equity
-
-**Growth**
-- Revenue Growth
-
-Each metric receives a score based on predefined thresholds.
-
-Companies are then ranked based on their **Total Score**.
-
----
-
 ## Universe
 
 The model focuses on companies within the **small and mid-cap segment**, inspired by the Russell 2000 universe.
